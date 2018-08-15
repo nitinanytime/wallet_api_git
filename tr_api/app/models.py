@@ -4,7 +4,7 @@ import datetime
 
 class Customer(Document):
     uid = fields.StringField(max_length=20, unique=True)
-    username = fields.StringField(max_length=50)
+    username = fields.StringField(max_length=50, required=True)
     password = fields.StringField(max_length=255, default='')
 
 

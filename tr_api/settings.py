@@ -38,7 +38,7 @@ CORS_ORIGIN_REGEX_WHITELIST = (
 # Application definition
 
 INSTALLED_APPS = [
-    'tr_api.transaction',
+    'tr_api.app',
     'rest_framework',
     'corsheaders',
     'rest_framework_mongoengine',

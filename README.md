@@ -34,3 +34,10 @@ python manage.py runserver
 
 #Testing tool
 Postman
+
+Most important code files don't have documentation or comments to explain implementation and decisions.
+
+https://github.com/nitinanytime/wallet_api_git/blob/fd8378479ef3b0cd3cc3c65ae6119206be3d8c8d/tr_api/transaction/views.py#L120
+
+All the dependent functions are written in one file 'views'. This is not a correct way to structure code for readability and it is not easily modifiable.
+
